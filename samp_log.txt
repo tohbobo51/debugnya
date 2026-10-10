@@ -4698,83 +4698,352 @@ Loading settings..
 One-time Google login ticket loaded for server authentication.
 Settings loaded.
 New fps limit = 120
-SIGSEGV | Fault address: 0x0
-1: libGTASA.so + 0x4298f9ed0
-2: libGTASA.so + 0xfffffffffa185f64
-1: libsamp.so + 0x42b4fbed0
-2: libsamp.so + 0xfffffffffbd87f64
-Last rendered object: 0
------------- START BACKTRACE ------------
- 
-[adr: 0x7ec7e2d094 samp: 0x41482c094 gta: 0x412c2a094] _ZN3art11SignalChain7HandlerEiP7siginfoPv
-
-[adr: 0x7ee2f71860 samp: 0x42f970860 gta: 0x42dd6e860] __kernel_rt_sigreturn
-
-[adr: 0x7edeafced0 samp: 0x42b4fbed0 gta: 0x4298f9ed0] name not found
-
-[adr: 0x7aaf388f64 samp: 0xfffffffffbd87f64 gta: 0xfffffffffa185f64] name not found
-
-[adr: 0x7aaf390cc0 samp: 0xfffffffffbd8fcc0 gta: 0xfffffffffa18dcc0] name not found
-
-[adr: 0x7aaf3cc3ac samp: 0xfffffffffbdcb3ac gta: 0xfffffffffa1c93ac] JNI_OnLoad
-
-[adr: 0x7c0edeaa68 samp: 0x15b7e9a68 gta: 0x159be7a68] _ZN3art9JavaVMExt17LoadNativeLibraryEP7_JNIEnvRKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEP8_jobjectP7_jclassPS9_
-
-[adr: 0x7be09576fc samp: 0x12d3566fc gta: 0x12b7546fc] JVM_NativeLoad
-
+NVFOpen hook | Error: file not found (/storage/emulated/0/Android/data/com.samp.mobile/files/.idx)
+NVFOpen hook | Error: file not found (/storage/emulated/0/Android/data/com.samp.mobile/files/.idx)
+InitialiseRenderWare ..
+Loading fonts.dat..
+[sv:dbg:network:init] : module initializing...
+[sv:dbg:network:init] : module initialized
+NVFOpen hook | Error: file not found (/storage/emulated/0/Android/data/com.samp.mobile/files/Adjustable.cfg)
+Loading handling.cfg..
+Loading pedstats.dat..
+Loading timecyc.dat..
+Loading popcycle.dat..
+rled error 3
+rled error 1
+NVFOpen hook | Error: file not found (/storage/emulated/0/Android/data/com.samp.mobile/files/GTASAsf10.b)
+NVFOpen hook | Error: file not found (/storage/emulated/0/Android/data/com.samp.mobile/files/scache.txt)
+Starting game..
+Installing patches..
+InitScripting
+New Widget: "brake" 0x5397D450
+New Widget: "handbrake" 0x53988270
+New Widget: "hud_car" 0x939904F0
+New Widget: "punch" 0x5397ACF0
+New Widget: "horn" 0x53988CF0
+New Widget: "hud_Cellphone" 0x539789F0
+New Widget: "Gift" 0x5398E390
+New Widget: "kiss" 0x5398A570
+New Widget: "shoot" 0x5398AFF0
+New Widget: "cam-toggle" 0x53989690
+New Widget: "leftshoot" 0x5393A7F0
+New Widget: "shoot" 0x5393B0B0
+New Widget: "fadeinbox" 0x93935410
+New Widget: "menu_up" 0x53928B90
+New Widget: "crane_release" 0x5397BA10
+New Widget: "drop_item" 0x53985BF0
+New Widget: "shoot" 0x53980B70
+New Widget: "shoot" 0x53982A10
+New Widget: "hud_lockon" 0x539862F0
+New Widget: "hud_lockon" 0x53977CD0
+New Widget: "shoot" 0x539869F0
+New Widget: "hud_detonator" 0x5393DF10
+New Widget: "hud_rockets" 0x53928110
+New Widget: "hud_tank_left" 0x53946090
+New Widget: "hud_tank_right" 0x539456F0
+New Widget: "hud_buy" 0x53948550
+New Widget: "hud_nitro" 0x5393D730
+New Widget: "hud_swapgun" 0x53938870
+New Widget: "No" 0x53934EB0
+New Widget: "Yes" 0x5393A010
+New Widget: "ArcadeGreenReleased" 0xC3997FA0
+New Widget: "ArcadeButton_ExitUp" 0xC3955590
+New Widget: "ArcadeButton_ResetUp" 0xC39522B0
+New Widget: "hud_right" 0x5397AC10
+New Widget: "hud_right" 0x53978670
+New Widget: "crane_up" 0x539790F0
+New Widget: "crane_up" 0x5397A190
+New Widget: "crane_down" 0x53978050
+New Widget: "crane_up" 0x5396EFF0
+New Widget: "crane_down" 0x53970BF0
+New Widget: "hud_left" 0x53975810
+New Widget: "hud_right" 0x5394EE50
+New Widget: "hud_plus" 0x5394DE90
+New Widget: "hud_minus" 0x5394CED0
+New Widget: "hud_left" 0x5394E590
+New Widget: "hud_right" 0x5395D470
+New Widget: "hud_check" 0x5394EF30
+New Widget: "hud_drop_jetpack" 0x5395B250
+New Widget: "menu_back" 0x5394C0D0
+New Widget: "StoreBuy" 0x5394A310
+New Widget: "menu_up" 0x5394CB50
+New Widget: "menu_down" 0x5394A4D0
+New Widget: "hud_left" 0x5394C1B0
+New Widget: "hud_right" 0x53947AD0
+New Widget: "hud_plus" 0x53949EB0
+New Widget: "hud_minus" 0x53926350
+New Widget: "StopHand" 0x53923250
+New Widget: "hud_magnet" 0x539480F0
+New Widget: "hud_stinger" 0x53945C30
+New Widget: "mission_start" 0x5393C230
+New Widget: "hud_x" 0x5393B7B0
+New Widget: "mission_start" 0x53983730
+New Widget: "hud_x" 0x53946DB0
+New Widget: "mission_start" 0x5391EE10
+New Widget: "hud_drop_jetpack" 0x5398B990
+New Widget: "hud_right" 0x5398A9D0
+New Widget: "TVArrow_Left" 0xC393D5B0
+New Widget: "TVArrow_Right" 0xC399CE40
+New Widget: "" 0xC399EEA0
+New Widget: "" 0xC39A0F00
+New Widget: "basketball_shoot" 0x5398A810
+New Widget: "basketball_trick" 0x53983E30
+New Widget: "hud_x" 0x53989070
+New Widget: "hud_check" 0x539895B0
+New Widget: "BJSplit" 0x53988DD0
+New Widget: "BJDouble" 0x53990310
+New Widget: "BJHit" 0x53992530
+New Widget: "BJStand" 0x53990A10
+New Widget: "YellowArrow" 0x53990850
+New Widget: "BlueArrow" 0x5398FF90
+New Widget: "RedArrow" 0x5398C410
+New Widget: "GreenArrow" 0x539918F0
+New Widget: "hud_drop_jetpack" 0x539903F0
+New Widget: "FistBump" 0x53990F50
+New Widget: "hud_x" 0x53994E50
+New Widget: "LetsGoHand" 0x5398FA50
+New Widget: "StopHand" 0x53991AB0
+New Widget: "" 0x5398FB30
+New Widget: "" 0x53994670
+New Widget: "" 0x53993790
+New Widget: "" 0x53992ED0
+New Widget: "" 0x53994D70
+New Widget: "" 0x53993E90
+New Widget: "ArrowRight" 0xC399F0F0
+New Widget: "ArrowLeft" 0xC399EA00
+New Widget: "HoldButton" 0xC399D090
+New Widget: "HoldButton" 0xC399D2E0
+New Widget: "HoldButton" 0xC39A15F0
+New Widget: "HoldButton" 0xC39A1CE0
+New Widget: "HoldButton" 0xC399C9A0
+New Widget: "PokerButton" 0xC39A6240
+New Widget: "PokerButton" 0xC39AB0E0
+New Widget: "" 0xC39A4D70
+New Widget: "hud_dive" 0x53999DF0
+New Widget: "hud_parachute" 0x53995550
+New Widget: "accelerate" 0x539975B0
+New Widget: "hud_circle" 0x539997D0
+New Widget: "hud_circle" 0x53998650
+NVFOpen hook | Error: file not found (/storage/emulated/0/Android/data/com.samp.mobile/files/scache_small.txt)
+CPools::Initialise
+NVFOpen hook | Error: file not found (/storage/emulated/0/Android/data/com.samp.mobile/files/gta3.ini)
+Loading vehicles.ide..
+Loading peds.ide..
+Loading gta.dat..
+Loading script.img..
+Loading script.img..
+Loading weapon.dat..
+Loading /storage/emulated/0/Android/data/com.samp.mobile/files/SAMP/main.scm
+Loading AFK icon..
+Loading AFK icon1..
+Loading AFK icon2..
+CGame initializing..
+Installing patches (ingame)..
+CNetGame initializing..
+CLocalPlayer::CLocalPlayer()
+Registering script RPC's..
+DoInitStuff end
+[dbg:raknet:client:connect] : connecting to game server '*.*.*.*:****'...
+[dbg:raknet:client:connect] : connected
+[sv:dbg:network:connect] : raknet connecting... (version:11;micro:1)
+TogglePlayerSpectating: 1
+TogglePlayerControllable
+TogglePlayerControllable2
+TogglePlayerControllable3
+TogglePlayerControllable4
+TogglePlayerControllable5
+TryLoadModel 299
+TryLoadModel 1
+TryLoadModel 11
+TryLoadModel 2
 Loading settings..
 One-time Google login ticket loaded for server authentication.
 Settings loaded.
 New fps limit = 120
-SIGSEGV | Fault address: 0x0
-1: libGTASA.so + 0x424cbeed0
-2: libGTASA.so + 0xfffffffff7d48f64
-1: libsamp.so + 0x4290c4ed0
-2: libsamp.so + 0xfffffffffc14ef64
-Last rendered object: 0
------------- START BACKTRACE ------------
- 
-[adr: 0x7ec7e2d094 samp: 0x4123f5094 gta: 0x40dfef094] _ZN3art11SignalChain7HandlerEiP7siginfoPv
-
-[adr: 0x7ee2f71860 samp: 0x42d539860 gta: 0x429133860] __kernel_rt_sigreturn
-
-[adr: 0x7edeafced0 samp: 0x4290c4ed0 gta: 0x424cbeed0] name not found
-
-[adr: 0x7ab1b86f64 samp: 0xfffffffffc14ef64 gta: 0xfffffffff7d48f64] name not found
-
-[adr: 0x7ab1b8ecc0 samp: 0xfffffffffc156cc0 gta: 0xfffffffff7d50cc0] name not found
-
-[adr: 0x7ab1bca3ac samp: 0xfffffffffc1923ac gta: 0xfffffffff7d8c3ac] JNI_OnLoad
-
-[adr: 0x7c0edeaa68 samp: 0x1593b2a68 gta: 0x154faca68] _ZN3art9JavaVMExt17LoadNativeLibraryEP7_JNIEnvRKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEP8_jobjectP7_jclassPS9_
-
-[adr: 0x7be09576fc samp: 0x12af1f6fc gta: 0x126b196fc] JVM_NativeLoad
-
-Loading settings..
-One-time Google login ticket loaded for server authentication.
-Settings loaded.
-New fps limit = 120
-SIGSEGV | Fault address: 0x0
-1: libGTASA.so + 0x421aa6ed0
-2: libGTASA.so + 0xfffffffff4331f64
-1: libsamp.so + 0x422c88ed0
-2: libsamp.so + 0xfffffffff5513f64
-Last rendered object: 0
------------- START BACKTRACE ------------
- 
-[adr: 0x7ec7e2d094 samp: 0x40bfb9094 gta: 0x40add7094] _ZN3art11SignalChain7HandlerEiP7siginfoPv
-
-[adr: 0x7ee2f71860 samp: 0x4270fd860 gta: 0x425f1b860] __kernel_rt_sigreturn
-
-[adr: 0x7edeafced0 samp: 0x422c88ed0 gta: 0x421aa6ed0] name not found
-
-[adr: 0x7ab1387f64 samp: 0xfffffffff5513f64 gta: 0xfffffffff4331f64] name not found
-
-[adr: 0x7ab138fcc0 samp: 0xfffffffff551bcc0 gta: 0xfffffffff4339cc0] name not found
-
-[adr: 0x7ab13cb3ac samp: 0xfffffffff55573ac gta: 0xfffffffff43753ac] JNI_OnLoad
-
-[adr: 0x7c0edeaa68 samp: 0x152f76a68 gta: 0x151d94a68] _ZN3art9JavaVMExt17LoadNativeLibraryEP7_JNIEnvRKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEP8_jobjectP7_jclassPS9_
-
-[adr: 0x7be09576fc samp: 0x124ae36fc gta: 0x1239016fc] JVM_NativeLoad
-
+NVFOpen hook | Error: file not found (/storage/emulated/0/Android/data/com.samp.mobile/files/.idx)
+NVFOpen hook | Error: file not found (/storage/emulated/0/Android/data/com.samp.mobile/files/.idx)
+InitialiseRenderWare ..
+Loading fonts.dat..
+[sv:dbg:network:init] : module initializing...
+[sv:dbg:network:init] : module initialized
+NVFOpen hook | Error: file not found (/storage/emulated/0/Android/data/com.samp.mobile/files/Adjustable.cfg)
+Loading handling.cfg..
+Loading pedstats.dat..
+Loading timecyc.dat..
+Loading popcycle.dat..
+rled error 3
+NVFOpen hook | Error: file not found (/storage/emulated/0/Android/data/com.samp.mobile/files/GTASAsf10.b)
+NVFOpen hook | Error: file not found (/storage/emulated/0/Android/data/com.samp.mobile/files/scache.txt)
+Starting game..
+Installing patches..
+InitScripting
+New Widget: "brake" 0x290D6950
+New Widget: "handbrake" 0x290D5610
+New Widget: "hud_car" 0x690E1590
+New Widget: "punch" 0x2907B6B0
+New Widget: "horn" 0x2907EB30
+New Widget: "hud_Cellphone" 0x2907FF50
+New Widget: "Gift" 0x2907E890
+New Widget: "kiss" 0x29054270
+New Widget: "shoot" 0x290690B0
+New Widget: "cam-toggle" 0x290D7210
+New Widget: "leftshoot" 0x290D7AD0
+New Widget: "shoot" 0x290A2070
+New Widget: "fadeinbox" 0x690B7050
+New Widget: "menu_up" 0x290D64F0
+New Widget: "crane_release" 0x290C3A90
+New Widget: "drop_item" 0x29077B30
+New Widget: "shoot" 0x290C0C30
+New Widget: "shoot" 0x290BF570
+New Widget: "hud_lockon" 0x290AE1D0
+New Widget: "hud_lockon" 0x29053EF0
+New Widget: "shoot" 0x29067670
+New Widget: "hud_detonator" 0x290ADAD0
+New Widget: "hud_rockets" 0x2909DB50
+New Widget: "hud_tank_left" 0x29083210
+New Widget: "hud_tank_right" 0x2907E970
+New Widget: "hud_buy" 0x2907FD90
+New Widget: "hud_nitro" 0x29079C70
+New Widget: "hud_swapgun" 0x2907A450
+New Widget: "No" 0x290D8010
+New Widget: "Yes" 0x290D96D0
+New Widget: "ArcadeGreenReleased" 0x99095CA0
+New Widget: "ArcadeButton_ExitUp" 0x990E6010
+New Widget: "ArcadeButton_ResetUp" 0x990A6440
+New Widget: "hud_right" 0x29085350
+New Widget: "hud_right" 0x290A4B50
+New Widget: "crane_up" 0x29084D30
+New Widget: "crane_up" 0x2909FF30
+New Widget: "crane_down" 0x290A02B0
+New Widget: "crane_up" 0x2909EB10
+New Widget: "crane_down" 0x290D6330
+New Widget: "hud_left" 0x290D5370
+New Widget: "hud_right" 0x290D74B0
+New Widget: "hud_plus" 0x290D56F0
+New Widget: "hud_minus" 0x290D7F30
+New Widget: "hud_left" 0x290D79F0
+New Widget: "hud_right" 0x290DD6B0
+New Widget: "hud_check" 0x290DD170
+New Widget: "hud_drop_jetpack" 0x290DC450
+New Widget: "menu_back" 0x290DC990
+New Widget: "StoreBuy" 0x290DB030
+New Widget: "menu_up" 0x290DAD90
+New Widget: "menu_down" 0x290DAE70
+New Widget: "hud_left" 0x290DBFF0
+New Widget: "hud_right" 0x290DB570
+New Widget: "hud_plus" 0x290DBF10
+New Widget: "hud_minus" 0x290DCFB0
+New Widget: "StopHand" 0x290DB110
+rled error 1
+New Widget: "hud_magnet" 0x290D8D30
+New Widget: "hud_stinger" 0x290DD250
+New Widget: "mission_start" 0x290E1930
+New Widget: "hud_x" 0x290E0DD0
+New Widget: "mission_start" 0x290E15B0
+New Widget: "hud_x" 0x290E0CF0
+New Widget: "mission_start" 0x290E0A50
+New Widget: "hud_drop_jetpack" 0x290E0F90
+New Widget: "hud_right" 0x290E1690
+New Widget: "TVArrow_Left" 0x990EB350
+New Widget: "TVArrow_Right" 0x990EBEE0
+New Widget: "" 0x99083250
+New Widget: "" 0x990EA0D0
+New Widget: "basketball_shoot" 0x290DDBF0
+New Widget: "basketball_trick" 0x290DB2D0
+New Widget: "hud_x" 0x290DCDF0
+New Widget: "hud_check" 0x290E4330
+New Widget: "BJSplit" 0x290E3990
+New Widget: "BJDouble" 0x290DFA90
+New Widget: "BJHit" 0x290E61D0
+New Widget: "BJStand" 0x290E3FB0
+New Widget: "YellowArrow" 0x290E59F0
+New Widget: "BlueArrow" 0x290E6550
+New Widget: "RedArrow" 0x290E5AD0
+New Widget: "GreenArrow" 0x290E5590
+New Widget: "hud_drop_jetpack" 0x290E99D0
+New Widget: "FistBump" 0x290E8CB0
+New Widget: "hud_x" 0x290E9570
+New Widget: "LetsGoHand" 0x290E85B0
+New Widget: "StopHand" 0x290EA370
+New Widget: "" 0x290EAFB0
+New Widget: "" 0x290EB870
+New Widget: "" 0x290EAC30
+New Widget: "" 0x290ED1D0
+New Widget: "" 0x290EA7D0
+New Widget: "" 0x290EC9F0
+New Widget: "ArrowRight" 0x990E9540
+New Widget: "ArrowLeft" 0x990F0440
+New Widget: "HoldButton" 0x990ED600
+New Widget: "HoldButton" 0x990F2000
+New Widget: "HoldButton" 0x990F1910
+New Widget: "HoldButton" 0x990F2250
+New Widget: "HoldButton" 0x990F4060
+New Widget: "PokerButton" 0x990EE630
+New Widget: "PokerButton" 0x990F1DB0
+New Widget: "" 0x990F2940
+New Widget: "hud_dive" 0x290EF4D0
+New Widget: "hud_parachute" 0x290ED710
+New Widget: "accelerate" 0x290EE350
+New Widget: "hud_circle" 0x290ED7F0
+New Widget: "hud_circle" 0x290F1450
+NVFOpen hook | Error: file not found (/storage/emulated/0/Android/data/com.samp.mobile/files/scache_small.txt)
+CPools::Initialise
+NVFOpen hook | Error: file not found (/storage/emulated/0/Android/data/com.samp.mobile/files/gta3.ini)
+Loading vehicles.ide..
+Loading peds.ide..
+Loading gta.dat..
+Loading script.img..
+Loading script.img..
+Loading weapon.dat..
+Loading /storage/emulated/0/Android/data/com.samp.mobile/files/SAMP/main.scm
+Loading AFK icon..
+Loading AFK icon1..
+Loading AFK icon2..
+CGame initializing..
+Installing patches (ingame)..
+CNetGame initializing..
+CLocalPlayer::CLocalPlayer()
+Registering script RPC's..
+DoInitStuff end
+[dbg:raknet:client:connect] : connecting to game server '*.*.*.*:****'...
+[dbg:raknet:client:connect] : connected
+[sv:dbg:network:connect] : raknet connecting... (version:11;micro:1)
+TogglePlayerSpectating: 1
+TogglePlayerControllable
+TogglePlayerControllable2
+TogglePlayerControllable3
+TogglePlayerControllable4
+TogglePlayerControllable5
+TryLoadModel 299
+TryLoadModel 1
+TryLoadModel 11
+TryLoadModel 2
+TogglePlayerSpectating: 0
+TogglePlayerControllable
+TogglePlayerControllable2
+TogglePlayerControllable3
+TogglePlayerControllable4
+TogglePlayerControllable6
+TryLoadModel 299
+TryLoadModel 1
+TryLoadModel 11
+TryLoadModel 2
+GiveWeapon, iModelID -1, iWeaponID 0
+GiveWeapon, iModelID -1, iWeaponID 0
+GiveWeapon, iModelID -1, iWeaponID 0
+TogglePlayerControllable
+TogglePlayerControllable2
+TogglePlayerControllable3
+TogglePlayerControllable4
+TogglePlayerControllable6
+TryLoadModel 299
+TryLoadModel 1
+TryLoadModel 11
+TryLoadModel 2
+GiveWeapon, iModelID -1, iWeaponID 0
+GiveWeapon, iModelID -1, iWeaponID 0
+GiveWeapon, iModelID -1, iWeaponID 0
+TryLoadModel 299
+TryLoadModel 1
+TryLoadModel 11
+TryLoadModel 2
